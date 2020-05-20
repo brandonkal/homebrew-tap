@@ -4,11 +4,11 @@ class Inkjet < Formula
   version "0.8.1"
 
   if OS.mac?
-    url "https://github.com/brandonkal/inkjet/releases/download/v0.8.1/inkjet-darwin.tar.gz"
-    sha256 "f978ba38c79ac9e9cf9a3d304fe27c4dfa6c0a1e2d74a57ca3f23443290e27b5"
+    url "https://github.com/brandonkal/inkjet/releases/download/v0.9.0/inkjet-darwin.tar.gz"
+    sha256 "65cc14aea739e6602c07729bd7fea2bd4460e45701fad7ad96a1d55894054ab5"
   elsif OS.linux?
-    url "https://github.com/brandonkal/inkjet/releases/download/v0.8.1/inkjet-linux.tar.gz"
-    sha256 "289a036db24e0a7b47196154c2a6e43da6ca1c7b02bcfa6bc06e9287b10aac67"
+    url "https://github.com/brandonkal/inkjet/releases/download/v0.9.0/inkjet-linux.tar.gz"
+    sha256 "0972e126194238130eba358118035b894243ae86df7a98e3c892ff643e9cddad"
   end
 
   depends_on :arch => :x86_64
