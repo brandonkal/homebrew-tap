@@ -1,7 +1,7 @@
 class Inkjet < Formula
   desc "Make your markdown executable with inkjet, the interactive CLI task runner"
   homepage "https://github.com/brandonkal/inkjet"
-  version "0.10.0"
+  version "0.11.0"
 
   if OS.mac?
     url "https://github.com/brandonkal/inkjet/releases/download/v0.11.0/inkjet-darwin.tar.gz"
