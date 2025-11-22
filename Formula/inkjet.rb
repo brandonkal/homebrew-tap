@@ -1,17 +1,17 @@
 class Inkjet < Formula
   desc "Make your markdown executable with inkjet, the interactive CLI task runner"
   homepage "https://github.com/brandonkal/inkjet"
-  version "1.0.0"
+  version "2.0.1"
   license = "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/brandonkal/inkjet/releases/download/v1.0.0/inkjet-v1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9fa7be42e53c5644a56980b98ce8a649e4d2108f513bf7693fdd9b3a2767f41a"
+      url "https://github.com/brandonkal/inkjet/releases/download/v2.0.1/inkjet-v2.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "50fe7c948ab6dbe0b00b457769cc750c01f5943a3aac07bf4258fa2e3b2ea5fe"
     end
     on_intel do
-      url "https://github.com/brandonkal/inkjet/releases/download/v1.0.0/inkjet-v1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "67f5afe52e26dc4275d73cb1a5efb8113f0739a7e727059cf6692a75ef44ad0c"
+      url "https://github.com/brandonkal/inkjet/releases/download/v2.0.1/inkjet-v2.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "1c0e549a9e928dcf32bcaab896761f1176e16408bba29ff2ce2e798ddb7471ed"
     end
   end
 
