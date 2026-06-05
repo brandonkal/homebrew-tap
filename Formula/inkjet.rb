@@ -6,12 +6,12 @@ class Inkjet < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/brandonkal/inkjet/releases/download/v2.0.1/inkjet-v2.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "50fe7c948ab6dbe0b00b457769cc750c01f5943a3aac07bf4258fa2e3b2ea5fe"
+      url "https://github.com/brandonkal/inkjet/releases/download/v3.0.0/inkjet-v3.0.0-aarch64-apple-darwin.zip"
+      sha256 "41bf961f1a3704392784e1754a5123a2e80d459ecaec754e8b801c5a48879fbb"
     end
     on_intel do
-      url "https://github.com/brandonkal/inkjet/releases/download/v2.0.1/inkjet-v2.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "1c0e549a9e928dcf32bcaab896761f1176e16408bba29ff2ce2e798ddb7471ed"
+      url "https://github.com/brandonkal/inkjet/releases/download/v3.0.0/inkjet-v3.0.0-x86_64-apple-darwin.zip"
+      sha256 "a66772023692ba5477b226cdc4b518befe17810e144d6b72c125ff40d3b96ad3"
     end
   end
 
