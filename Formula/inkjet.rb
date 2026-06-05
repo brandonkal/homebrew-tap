@@ -1,7 +1,7 @@
 class Inkjet < Formula
   desc "Make your markdown executable with inkjet, the interactive CLI task runner"
   homepage "https://github.com/brandonkal/inkjet"
-  version "2.0.1"
+  version "3.0.0"
   license = "MIT"
 
   on_macos do
